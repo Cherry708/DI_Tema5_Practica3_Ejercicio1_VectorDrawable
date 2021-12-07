@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/RSC-1/AndroidStudioProjects/DI_Tema5_Practica2_Ejercicio2_KeepNotes/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/RSC-1/AndroidStudioProjects/DI_Tema5_Practica2_Ejercicio2_KeepNotes/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/RSC-1/AndroidStudioProjects/DI_Tema5_Practica2_Ejercicio2_KeepNotes/app/src/main/res/layout/item_note.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/RSC-1/AndroidStudioProjects/DI_Tema5_Practica2_Ejercicio2_KeepNotes/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3828125" />
+        <entry key="..\:/Users/RSC-1/AndroidStudioProjects/DI_Tema5_Practica3_Ejercicio1_VectorDrawable/app/src/main/res/drawable/addfab_rotation.xml" value="0.3828125" />
+        <entry key="..\:/Users/RSC-1/AndroidStudioProjects/DI_Tema5_Practica3_Ejercicio1_VectorDrawable/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/RSC-1/AndroidStudioProjects/DI_Tema5_Practica3_Ejercicio1_VectorDrawable/app/src/main/res/layout/activity_main.xml" value="0.28940217391304346" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/item_note.xml" value="0.22" />
         <entry key="app/src/main/res/menu/menu.xml" value="0.13958333333333334" />

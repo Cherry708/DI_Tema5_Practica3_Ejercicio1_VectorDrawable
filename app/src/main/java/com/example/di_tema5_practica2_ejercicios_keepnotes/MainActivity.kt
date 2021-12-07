@@ -1,13 +1,17 @@
 package com.example.di_tema5_practica2_ejercicios_keepnotes
 
+import android.annotation.SuppressLint
+import android.graphics.drawable.AnimatedVectorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.widget.Toolbar
 import android.view.Menu
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class MainActivity : AppCompatActivity() {
+    @SuppressLint("UseCompatLoadingForDrawables")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -33,8 +37,16 @@ class MainActivity : AppCompatActivity() {
         recView.adapter = adaptador
         recView.layoutManager = StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
 
-        adaptador.onClick = {
+        adaptador.onClick = {}
 
+        //Animación
+        val fab = findViewById(R.id.fab) as FloatingActionButton
+        fab.setImageResource(R.drawable.ic_baseline_add_24)
+
+        fab.setOnClickListener {
+            val rotar = getDrawable(R.drawable.addfab_rotation) as AnimatedVectorDrawable
+            fab.setImageDrawable(rotar)
+            rotar.start()
         }
 
     }
